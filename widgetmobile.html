@@ -13,40 +13,59 @@
     color: white;
     padding: 0px;
   }
-  .btn, .btn-link { color: white; }
-  a { color: white; padding-left: 0px;}
-
-  #scheduleTabs table thead {
-    display: none;
+  #onAirToday {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 0px;
+    overflow-x: hidden;
 }
 
-#scheduleTabs {
-  width: 100%;
-  height: 100%;
-  color: #ffffff;
+#onAirToday h3 {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 28px;
+    background: #000000;
 }
 
-#scheduleTabs table {
-    clear: both;
-    padding: 0px;
+#onAirToday table {
     border-collapse: collapse;
-    width: 100%;
+    clear: both;
+    padding: 0;
 }
 
-#scheduleTabs ul {
-    overflow: hidden;
-    height: auto;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+#onAirToday table tbody {
+    color: #ffffff;
+    font-size: 11px;
 }
 
-#scheduleTabs ul li {
-    float: left;
-    height: 25px;
-    margin: 0;
-    padding: 0;
+#onAirToday table tbody tr {
+    height: 30px;
+}
+
+#onAirToday table tbody tr td {
+    border-bottom: 0px solid #FFF;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+#onAirToday table tbody tr td a {
+    text-decoration: none;
+}
+
+#onAirToday table tbody tr td a:hover {
+    text-decoration: underline;
+}
+
+#onAirToday table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+#onAirToday table tbody tr td.time {
+    font-weight: normal;
+    color: #ffffff;
 }
 
 
