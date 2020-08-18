@@ -13,20 +13,21 @@
     color: white;
     padding: 0px;
   }
- 
+
 
 </style>
 
 <script>
     $(document).ready(function() {
         $("#headerLiveHolder").airtimeLiveInfo({
-            sourceDomain: "https://schedule.example.com/",
-            text: {onAirNow:"Sur Les Antennes", offline:"Offline", current:"Current", next:"Next"},
+            sourceDomain: "https://airtime.radioquantica.com",
+            text: {onAirNow:"LIVE NOW", offline:"Offline", current:"Current", next:"Next"},
             updatePeriod: 20 //seconds
         });
     });
 </script> 
 
-<div id="headerLiveHolder" style="border: 1px solid #999999; padding: 10px;"></div>
+<div id="headerLiveHolder" style="border: 0px solid #999999; padding: 10px;"></div>
+
 </body>
 </html>
