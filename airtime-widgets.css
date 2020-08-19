@@ -93,28 +93,34 @@
 }
 
 #onAirToday {
-    width: 300%;
+    width: 100%;
     margin-bottom: 15%;
+    border: 0px;
+    overflow-x: hidden;
+    font-family: 'Space Mono', monospace;
+    height: 100%;
 }
 
 #onAirToday h3 {
     margin: 0;
-    padding: 0 10%;
-    font-size: 110%;
+    padding: 0 2%;
+    font-size: 100%;
     color: #ffffff;
-    line-height: 28%;
+    line-height: 200%;
     background: #000000;
+    border: none;
 }
 
 #onAirToday table {
     border-collapse: collapse;
     clear: both;
     padding: 0;
+    border: none;
 }
 
 #onAirToday table tbody {
-    color: #000;
-    font-size: 110%;
+    color: #ffffff;
+    font-size: 100%;
 }
 
 #onAirToday table tbody tr {
@@ -122,8 +128,9 @@
 }
 
 #onAirToday table tbody tr td {
+    border-bottom: 0px solid #FFF;
     height: 30%;
-    padding-left: 10%;
+    padding-left: 2%;
     font-weight: normal;
 }
 
@@ -141,7 +148,7 @@
 
 #onAirToday table tbody tr td.time {
     font-weight: normal;
-    color: #666666;
+    color: #ffffff;
 }
 
 
@@ -173,7 +180,7 @@
 #scheduleTabs ul li a {
     display: block;
     float: left;
-    height: 25%;
+    height: 10%;
     padding: 0 25px;
     margin: 0px;
     font-size: 100%;
@@ -190,7 +197,7 @@
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
-    height: 25%;
+    height: 10%;
     margin-top: 0px;
     line-height: 150%;
     color: #ffffff;
@@ -205,7 +212,7 @@
 }
 
 #scheduleTabs table thead {
-    height: 35%;
+    height: 10%;
     font-size: 100%;
     color: #333333;
     line-height: 140%;
@@ -218,7 +225,7 @@
 }
 
 #scheduleTabs table thead tr td {
-    padding-left: 10px;
+    padding-left: 10%;
     font-size: 110%;
     color: #00FF66;
     text-transform: uppercase;
@@ -234,11 +241,11 @@
 }
 
 #scheduleTabs table tbody tr {
-    height: 25%;
+    height: 10%;
 }
 
 #scheduleTabs table tbody tr td {
-    height: 25%;
+    height: 10%;
     padding-left: 10px;
 }
 
@@ -257,24 +264,24 @@
 
 #scheduleTabs table tbody tr td ul li {
     float: left;
-    height: 30% !important;
+    height: 10% !important;
     padding: 0 2px;
     font-size: 110%;
     color: #cc0000;
     font-weight: normal;
-    line-height: 130% !important;
+    line-height: 120% !important;
     display: none;
 }
 
 #scheduleTabs table tbody tr td ul li a {
-    height: 30% !important;
+    height: 10% !important;
     margin: 0px !important;
     padding: 0px !important;
     font-size: 110%;
     color: 282828 !important;
     font-weight: normal !important;
     text-transform: uppercase;
-    line-height: 30% !important;
+    line-height: 10% !important;
     background: none !important;
     border: none !important;
     display: none;
