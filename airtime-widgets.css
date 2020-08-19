@@ -5,22 +5,19 @@
 #headerLiveHolder, #headerLiveTrackHolder {
     overflow: hidden;
     position: relative;
-    width: 90%!important;
+    width: 100%!important;
     font-size: 70%;
-    margin: auto;
-    padding: 0;
     font-family: 'Space Mono', monospace;
+    text-align: left;
+    margin-left: -4%;
 }
 
 #headerLiveHolder *, #headerLiveTrackHolder * {
-    margin: auto;
-    padding: 0;
+    margin: 0;
 }
 
 #headerLiveHolder ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 #headerLiveHolder h4 {
@@ -43,7 +40,6 @@
     overflow: hidden;
     position: relative;
     height: 120%;
-    padding-right: 0%;
     font-size: 100%;
     color: #ffffff;
     line-height: 110%;
@@ -57,11 +53,9 @@
 
 #headerLiveHolder ul li span {
     position: absolute;
-    right: 0%;
 }
 
 #headerLiveHolder ul li span#time-elapsed {
-    right: 0%;
 }
 
 #headerLiveHolder ul li span#time-elapsed:before {
@@ -76,12 +70,10 @@
     font-weight: bold;
     color: #ffffff;
     position: absolute;
-    right: 10%;
     font-size: 110%;
 }
 
 #headerLiveTrackHolder span#time-elapsed {
-    right: 0%;
 }
 
 #headerLiveTrackHolder span#time-elapsed:before {
