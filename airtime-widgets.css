@@ -120,16 +120,16 @@
 
 #onAirToday table tbody {
     color: #ffffff;
-    font-size: 70%;
+    font-size: 90%;
 }
 
 #onAirToday table tbody tr {
-    height: 30%;
+    height: 60%;
 }
 
 #onAirToday table tbody tr td {
     border-bottom: 0px solid #FFF;
-    height: 30%;
+    height: 60%;
     padding-left: 2%;
     font-weight: normal;
 }
