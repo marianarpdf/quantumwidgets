@@ -7,13 +7,13 @@
     position: relative;
     width: 90%!important;
     font-size: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Space Mono', monospace;
 }
 
 #headerLiveHolder *, #headerLiveTrackHolder * {
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -94,7 +94,7 @@
 
 #onAirToday {
     width: 100%;
-    margin-bottom: 15%;
+    margin: auto;
     border: 0px;
     overflow-x: hidden;
     font-family: 'Space Mono', monospace;
@@ -102,7 +102,7 @@
 }
 
 #onAirToday h3 {
-    margin: 0;
+    margin: auto;
     padding: 0 2%;
     font-size: 100%;
     color: #ffffff;
@@ -116,15 +116,18 @@
     clear: both;
     padding: 0;
     border: none;
+    margin: auto;
 }
 
 #onAirToday table tbody {
     color: #ffffff;
     font-size: 90%;
+    margin: auto;
 }
 
 #onAirToday table tbody tr {
     height: 60%;
+    margin: auto;
 }
 
 #onAirToday table tbody tr td {
@@ -132,6 +135,7 @@
     height: 60%;
     padding-left: 2%;
     font-weight: normal;
+    margin: auto;
 }
 
 #onAirToday table tbody tr td a {
@@ -166,7 +170,7 @@
     overflow: hidden;
     height: auto;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
