@@ -4,6 +4,7 @@
 <script src="jquery-1.6.1.min.js" type="text/javascript"></script>
 <script src="jquery-ui-1.8.10.custom.min.js" type="text/javascript"></script>
 <script src="jquery.showinfo.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 <style>
@@ -18,14 +19,15 @@
     margin-bottom: 15px;
     border: 0px;
     overflow-x: hidden;
+    font-family: 'Space Mono', monospace;
 }
 
 #onAirToday h3 {
     margin: 0;
     padding: 0 10px;
-    font-size: 11px;
+    font-size: 100%;
     color: #ffffff;
-    line-height: 28px;
+    line-height: 140%;
     background: #000000;
     border: none;
 }
@@ -39,7 +41,7 @@
 
 #onAirToday table tbody {
     color: #ffffff;
-    font-size: 11px;
+    font-size: 110%;
 }
 
 #onAirToday table tbody tr {
@@ -79,7 +81,7 @@
     $(document).ready(function() {
         $("#onAirToday").airtimeShowSchedule({
             sourceDomain: "https://airtime.radioquantica.com",
-            text: {onAirToday:"On air today"},
+            text: {onAirToday:"ON AIR TODAY"},
             updatePeriod: 60 //seconds
         });
     });
