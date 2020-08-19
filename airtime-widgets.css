@@ -43,7 +43,7 @@
     overflow: hidden;
     position: relative;
     height: 120%;
-    padding-right: 60%;
+    padding-right: 0%;
     font-size: 100%;
     color: #ffffff;
     line-height: 110%;
@@ -61,7 +61,7 @@
 }
 
 #headerLiveHolder ul li span#time-elapsed {
-    right: 50%;
+    right: 0%;
 }
 
 #headerLiveHolder ul li span#time-elapsed:before {
@@ -81,7 +81,7 @@
 }
 
 #headerLiveTrackHolder span#time-elapsed {
-    right: 65%;
+    right: 0%;
 }
 
 #headerLiveTrackHolder span#time-elapsed:before {
