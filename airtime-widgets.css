@@ -117,17 +117,20 @@
     padding: 0;
     border: none;
     margin: auto;
+    vertical-align: text-top;
 }
 
 #onAirToday table tbody {
     color: #ffffff;
     font-size: 90%;
     margin: auto;
+    vertical-align: text-top;
 }
 
 #onAirToday table tbody tr {
     height: 60%;
     margin: auto;
+    vertical-align: text-top;
 }
 
 #onAirToday table tbody tr td {
@@ -136,6 +139,7 @@
     padding-left: 2%;
     font-weight: normal;
     margin: auto;
+    vertical-align: text-top;
 }
 
 #onAirToday table tbody tr td a {
