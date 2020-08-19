@@ -4,11 +4,12 @@
 <script src="jquery-1.6.1.min.js" type="text/javascript"></script>
 <script src="jquery-ui-1.8.10.custom.min.js" type="text/javascript"></script>
 <script src="jquery.showinfo.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 <style>
   body {
-    font-family: 'Open Sans', sans-serif;
+    
     background: #000;
     color: white;
     padding: 0px;
@@ -21,13 +22,13 @@
     $(document).ready(function() {
         $("#headerLiveHolder").airtimeLiveInfo({
             sourceDomain: "https://airtime.radioquantica.com",
-            text: {onAirNow:"LIVE NOW", offline:"Offline", current:"", next:"Next"},
+            text: {onAirNow:"LIVE", offline:"Offline", current:"NOW", next:"NEXT"},
             updatePeriod: 20 //seconds
         });
     });
 </script> 
 
-<div id="headerLiveHolder" style="border: 0px solid #999999; padding: 10px;"></div>
+<div id="headerLiveHolder" style="border: 0px solid #ffffff; padding: 10px; color: white;"></div>
 
 </body>
 </html>
