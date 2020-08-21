@@ -193,7 +193,7 @@
     display: block;
     float: left;
     height: 10%;
-    padding: 0px 50px;
+    padding: 0px 30px;
     text-align: right;
     margin: 0px;
     font-size: 100%;
@@ -242,7 +242,7 @@
 }
 
 #scheduleTabs table thead tr td {
-    padding-left: 0%;
+    padding-left: 30px;
     font-size: 110%;
     color: #00FF66;
     text-transform: uppercase;
@@ -264,7 +264,7 @@
 
 #scheduleTabs table tbody tr td {
     height: 10%;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 #scheduleTabs table tbody tr td h4 {
@@ -273,7 +273,7 @@
     margin: 0;
     padding: 0;
     font-weight: normal;
-    
+
 }
 
 #scheduleTabs table tbody tr td ul {
