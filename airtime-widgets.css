@@ -14,7 +14,6 @@
 
 #headerLiveHolder *, #headerLiveTrackHolder * {
     margin: 0;
-    overflow: hidden;
 }
 
 #headerLiveHolder ul {
@@ -27,7 +26,6 @@
     text-transform: uppercase;
     font-weight: normal;
     line-height: 120%;
-    overflow: hidden;
 }
 
 #headerLiveTrackHolder span#status-current-show {
@@ -36,7 +34,6 @@
     text-transform: uppercase;
     font-weight: normal;
     line-height: 120%;
-    overflow: hidden;
 }
 
 #headerLiveHolder ul li, #headerLiveTrackHolder ul li {
@@ -46,19 +43,16 @@
     font-size: 100%;
     color: #ffffff;
     line-height: 110%;
-    overflow: hidden;
 }
 
 #headerLiveHolder ul li.current, #headerLiveTrackHolder ul li.current {
     font-weight: bold;
     color: #ffffff;
-    overflow: hidden;
 }
 
 
 #headerLiveHolder ul li span {
     position: absolute;
-    overflow: hidden;
 }
 
 #headerLiveHolder ul li span#time-elapsed {
@@ -77,7 +71,6 @@
     color: #ffffff;
     position: absolute;
     font-size: 110%;
-    overflow: hidden;
 }
 
 #headerLiveTrackHolder span#time-elapsed {
@@ -170,12 +163,14 @@
   height: 100%;
   color: #ffffff;
   font-family: 'Space Mono', monospace;
+  border-spacing: 0px;
 }
 
 #scheduleTabs table {
     clear: both;
     padding: 0px;
     width: 100%;
+    border-spacing: 0px;
 }
 
 #scheduleTabs ul {
@@ -183,14 +178,14 @@
     height: auto;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     width: 100%;
 }
 
 #scheduleTabs ul li {
     float: left;
     height: 5%;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -198,7 +193,8 @@
     display: block;
     float: left;
     height: 10%;
-    padding: 0 25px;
+    padding: 0px 50px;
+    text-align: right;
     margin: 0px;
     font-size: 100%;
     font-weight: normal;
@@ -206,11 +202,13 @@
     color: #FFF;
     line-height: 120%;
     text-decoration: none;
+    border-spacing: 0px;
 }
 
 #scheduleTabs ul li a:hover {
     color: #FFF;
     text-decoration: none;
+    border-spacing: 0px;
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
@@ -219,6 +217,7 @@
     line-height: 150%;
     color: #ffffff;
     text-decoration: underline;
+    border-spacing: 0px;
 }
 
 #scheduleTabs table {
@@ -226,6 +225,7 @@
     padding: 0px;
     border-collapse: collapse;
     width: 100%;
+    border-spacing: 0px;
 }
 
 #scheduleTabs table thead {
@@ -247,6 +247,7 @@
     color: #00FF66;
     text-transform: uppercase;
     display: none;
+
 }
 
 #scheduleTabs table tfoot {}
@@ -263,7 +264,7 @@
 
 #scheduleTabs table tbody tr td {
     height: 10%;
-    padding-left: 0%;
+    padding-left: 50px;
 }
 
 #scheduleTabs table tbody tr td h4 {
@@ -272,6 +273,7 @@
     margin: 0;
     padding: 0;
     font-weight: normal;
+    
 }
 
 #scheduleTabs table tbody tr td ul {
@@ -282,12 +284,13 @@
 #scheduleTabs table tbody tr td ul li {
     float: left;
     height: 10% !important;
-    padding: 0 2%;
+    padding: 0 0%;
     font-size: 110%;
     color: #cc0000;
     font-weight: normal;
     line-height: 120% !important;
     display: none;
+    border-spacing: 0px;
 }
 
 #scheduleTabs table tbody tr td ul li a {
@@ -302,6 +305,7 @@
     background: none !important;
     border: none !important;
     display: none;
+    border-spacing: 0px;
 }
 
 #scheduleTabs table tbody tr td ul li a:hover {
