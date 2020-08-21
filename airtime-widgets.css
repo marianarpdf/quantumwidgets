@@ -2,12 +2,19 @@
 
 /* CSS Document */
 
+@font-face {
+    font-family: 'eurostile';
+    src: url('https://rawcdn.githack.com/marianarpdf/quantumwidgets/9160e655decf880a4807b1b63f91e756183bdbfe/EurostileLTStd-Ex2.otf');
+    font-weight: 100;
+    font-style: normal;
+} 
+
 #headerLiveHolder, #headerLiveTrackHolder {
     overflow: hidden;
     position: relative;
     width: 100%!important;
     font-size: 70%;
-    font-family: 'Space Mono', monospace;
+    font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: -4%;
 }
@@ -186,7 +193,7 @@
     float: left;
     height: 5%;
     margin: 0;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 }
 
 #scheduleTabs ul li a {
