@@ -271,15 +271,13 @@
                 var html = 
                   '<table class="widget widget now-playing-list">'+
                     '<colgroup>'+
-                      '<col width="150" />'+
-                      '<col width="350" />'+
-                      '<col width="240" />'+
+                      '<col width="20%" />'+
+                      '<col width="80%" />'+
                     '</colgroup>'+
                     '<thead>'+
                       '<tr>'+
                         '<td>'+options.miscText.time+'</td>'+
-                        '<td>'+options.miscText.programName+'</td>'+
-                        '<td>'+options.miscText.details+'</td>'+
+                        '<td>'+options.miscText.programName+'</td>'+ 
                       '</tr>'+
                     '</thead>'+
                     '<tfoot>'+
@@ -296,11 +294,6 @@
                         '<td>'+getTime(daySchedule[j].start_timestamp)+ " - " + getTime(daySchedule[j].end_timestamp)+'</td>'+
                         '<td>'+
                           '<h4>'+daySchedule[j].name+'</h4>'+
-                        '</td>'+
-                        '<td>'+
-                          '<ul>'+
-                            '<li>'+(url.length > 0 ? '<a href="'+url+'">'+options.miscText.readMore+'</a>':'')+'</li>'+
-                          '</ul>'+
                         '</td>'+
                       '</tr>';
                 }
