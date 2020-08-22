@@ -166,11 +166,12 @@
   + Center Column */
 
 #scheduleTabs {
-  width: 100%;
+
   height: 100%;
   color: #ffffff;
   font-family: 'Space Mono', monospace;
   border-spacing: 0px;
+  align-self: center;
 }
 
 #scheduleTabs table {
@@ -178,13 +179,14 @@
     padding: 0px;
     width: 100%;
     border-spacing: 0px;
+    align-self: center;
 }
 
 #scheduleTabs ul {
     overflow: hidden;
     height: auto;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0%;
     width: 100%;
 }
@@ -192,7 +194,7 @@
 #scheduleTabs ul li {
     float: left;
     height: 5%;
-    margin: 0;
+    margin: 0 auto;
     padding-bottom: 0%;
 }
 
@@ -201,8 +203,8 @@
     float: left;
     height: 10%;
     padding: 0px 30px;
-    text-align: right;
-    margin: 0px;
+    text-align: center;
+    margin: 0px auto;
     font-size: 100%;
     font-weight: normal;
     text-transform: uppercase;
@@ -233,6 +235,7 @@
     border-collapse: collapse;
     width: 100%;
     border-spacing: 0px;
+    margin: 0 auto;
 
 }
 
@@ -265,6 +268,7 @@
     font-size: 100%;
     color: #ffffff;
     font-weight: normal;
+    margin: auto;
 }
 
 #scheduleTabs table tbody tr {
@@ -280,7 +284,7 @@
 #scheduleTabs table tbody tr td h4 {
     color: #ffffff;
     font-size: 110%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-weight: normal;
 
@@ -305,7 +309,7 @@
 
 #scheduleTabs table tbody tr td ul li a {
     height: 10% !important;
-    margin: 0px !important;
+    margin: 0px auto !important;
     padding: 0px !important;
     font-size: 110%;
     color: 282828 !important;
