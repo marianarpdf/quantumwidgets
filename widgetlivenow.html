@@ -15,15 +15,23 @@
     background: #000;
     color: white;
     padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.animated{
+  width: 100%;
+  height: 100%;
+  animation: marquee 10s linear infinite;
 }
 
 #headerLiveHolder {
-    animation: marquee 10s linear infinite;
     vertical-align: middle;
     width: 100%;
+    height: 100%;
 }
-@keyframes marquee {
 
+@keyframes marquee {
   from { transform: translateX(100%); }
   to { transform: translateX(-5%); }
 }
@@ -40,8 +48,8 @@
     });
 </script> 
 
-
+<div class="animated">
 <div id="headerLiveHolder" style="color: white;"></div>
-
+</div>
 </body>
 </html>
