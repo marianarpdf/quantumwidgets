@@ -114,10 +114,7 @@
                 timeRemaining = sd.getShowTimeRemaining(currentShow[0]);
             }
 
-            if (nextShows.length > 0){
-                nextShowName = nextShows[0].getName();
-                nextShowRange = nextShows[0].getRange();
-            }
+           
 
             obj.empty();
 
@@ -188,11 +185,6 @@
 
                    timeElapsed = sd.getShowTimeElapsed(currentShow[0]);
                    timeRemaining = sd.getShowTimeRemaining(currentShow[0]);
-               }
-
-               if (nextShows.length > 0){
-                   nextShowName = nextShows[0].getName();
-                   nextShowRange = nextShows[0].getRange();
                }
 
                obj.empty();
