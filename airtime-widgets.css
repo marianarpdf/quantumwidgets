@@ -16,8 +16,8 @@
     font-size: 70%;
     font-family: 'eurostile', monospace;
     text-align: left;
-    margin-left: -4%;
-    
+    margin-left: 0%;
+
 }
 
 #headerLiveHolder *, #headerLiveTrackHolder * {
@@ -33,7 +33,7 @@
     color: #ffffff;
     text-transform: uppercase;
     font-weight: normal;
-    line-height: 120%;
+    line-height: 100%;
 }
 
 #headerLiveTrackHolder span#status-current-show {
@@ -103,7 +103,7 @@
 
 #onAirToday h3 {
     margin: auto;
-    padding: 0 2%;
+    padding: 0 0%;
     font-size: 100%;
     color: #ffffff;
     line-height: 200%;
