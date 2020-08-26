@@ -17,6 +17,7 @@
     font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: -4%;
+    
 }
 
 #headerLiveHolder *, #headerLiveTrackHolder * {
@@ -40,16 +41,16 @@
     color: #ffffff;
     text-transform: uppercase;
     font-weight: normal;
-    line-height: 120%;
+    line-height: 100%;
 }
 
 #headerLiveHolder ul li, #headerLiveTrackHolder ul li {
     overflow: hidden;
     position: relative;
-    height: 120%;
+    height: 100%;
     font-size: 100%;
     color: #ffffff;
-    line-height: 110%;
+    line-height: 100%;
 }
 
 #headerLiveHolder ul li.current, #headerLiveTrackHolder ul li.current {
@@ -59,7 +60,7 @@
 
 
 #headerLiveHolder ul li span {
-    position: absolute;
+    
 }
 
 #headerLiveHolder ul li span#time-elapsed {
@@ -76,8 +77,8 @@
 #headerLiveTrackHolder span.current {
     font-weight: bold;
     color: #ffffff;
-    position: absolute;
-    font-size: 110%;
+    
+    font-size: 100%;
 }
 
 #headerLiveTrackHolder span#time-elapsed {
@@ -172,6 +173,7 @@
   font-family: 'Space Mono', monospace;
   border-spacing: 0px;
   align-self: center;
+  text-transform: uppercase;
 }
 
 #scheduleTabs table {
