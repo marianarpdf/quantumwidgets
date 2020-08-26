@@ -11,13 +11,27 @@
 
 <style>
   body {
-    
-    background: #000;
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
     padding: 0px;
     width: 100%;
     height: 100%;
 }
+
+#css-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+#css-marquee > div {
+  animation-name: marquee;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  /* width: 100%; */
+}
+@keyframes marquee {
+  0% { transform: translate(100%, 0); }
+  100% { transform: translate(-10%, 0); }
 
 #headerLiveHolder {
     vertical-align: middle;
@@ -38,8 +52,8 @@
     });
 </script> 
 
-
-<div id="headerLiveHolder" style="color: white;"></div>
-
+<div id="css-marquee">
+<div id="headerLiveHolder"></div>
+</div>
 </body>
 </html>
