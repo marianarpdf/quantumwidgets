@@ -1,9 +1,4 @@
-#flip {
-   -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
-/* ---------- Container for the orbiting circles animation ---------- */
+/* ---------- Container for the orbiting circle animation ---------- */
 #circle-orbit-container {
   position: relative;
   display: block;
@@ -11,16 +6,13 @@
   margin-right: auto;
   top: 0%;
   left: 0%;
-  height: 70%;
-  width: 70%;
-  content-align: middle;
   margin-top: 2.5%;
 }
-/* ---------- Inner orbit - This is the circles closest to the central point ---------- */
+/* ---------- Inner orbit ---------- */
 #inner-orbit {
   position: absolute;
-  top: 20%;
-  left: 5%;
+  top: 2%;
+  left: 2%;
   width: 10vh;
   height: 10vh;
   border: 4px #000000 solid;
@@ -30,11 +22,11 @@
   
 }
 
-/* ---------- Repeating styles for the inner orbiting circles ---------- */
+/* ---------- Orbiting circles ---------- */
 .inner-orbit-cirlces {
   position: absolute;
   top: 65%;
-  left: -5%;
+  left: 75%;
   height: 25%;
   width: 25%;
   border-radius: 100%;
@@ -42,6 +34,7 @@
   border: 4px #000000 solid;
 }
 /* ---------- Animation ---------- */
+
 @-webkit-keyframes spin-right {
   100% {
     -webkit-transform: rotate(360deg);
