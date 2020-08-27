@@ -12,8 +12,8 @@
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 9vh;
-  height: 9vh;
+  width: 18vh;
+  height: 18vh;
   border: 4px #000000 solid;
   border-radius: 100%;
   -webkit-animation: spin-right 5s ease infinite;
