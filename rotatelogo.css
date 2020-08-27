@@ -2,8 +2,7 @@
 #circle-orbit-container {
   position: relative;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   top: 1%;
   left: 1%;
 }
