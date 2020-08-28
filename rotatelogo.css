@@ -10,6 +10,8 @@
   position: absolute;
   margin-top: 5vh;
   margin-left: 5vh;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
   width: 50vh;
   height: 50vh;
   border: 2vh #000000 solid;
