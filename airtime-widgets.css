@@ -15,7 +15,7 @@
     vertical-align: middle;
     width: auto;
     height: auto;
-    font-size: 70%;
+    font-size: 3vh;
     font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: 0%;
@@ -40,7 +40,6 @@
 }
 
 #headerLiveTrackHolder span#status-current-show {
-    font-size: 100%;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: normal;
@@ -51,7 +50,6 @@
     overflow: hidden;
     position: relative;
     height: auto;
-    font-size: 100%;
     color: #ffffff;
     line-height: 100%;
 }
