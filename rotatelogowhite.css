@@ -1,0 +1,45 @@
+/* ---------- Container for the orbiting circle animation ---------- */
+#circle-orbit-container {
+  position: relative;
+  display: block;
+  float: left;
+
+}
+/* ---------- Inner orbit ---------- */
+#inner-orbit {
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-bottom: 10vh;
+  width: 50vh;
+  height: 50vh;
+  border: 2.5vh #ffffff solid;
+  border-radius: 100%;
+  -webkit-animation: spin-right 5s ease infinite;
+  animation: spin-right 5s ease infinite;
+  
+}
+
+/* ---------- Orbiting circle ---------- */
+.inner-orbit-cirlces {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  height: 25%;
+  width: 25%;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border: 2.5vh #000000 solid;
+}
+/* ---------- Animation ---------- */
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
