@@ -12,6 +12,7 @@
 #headerLiveHolder, #headerLiveTrackHolder {
     overflow: hidden;
     position: relative;
+    vertical-align: middle;
     width: auto;
     height: auto;
     font-size: 70%;
