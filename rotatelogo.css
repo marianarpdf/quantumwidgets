@@ -10,8 +10,8 @@
   position: absolute;
   margin-top: 5vh;
   margin-left: 5vh;
-  width: 100vh;
-  height: 100vh;
+  width: 85vh;
+  height: 85vh;
   border: 1vh #000000 solid;
   border-radius: 100%;
   -webkit-animation: spin-right 5s ease infinite;
