@@ -14,7 +14,7 @@
   margin-bottom: 10vh;
   width: 50vh;
   height: 50vh;
-  border: 5vh #000000 solid;
+  border: 3vh #000000 solid;
   border-radius: 100%;
   -webkit-animation: spin-right 5s ease infinite;
   animation: spin-right 5s ease infinite;
@@ -30,7 +30,7 @@
   width: 25%;
   border-radius: 100%;
   background-color: #ffffff;
-  border: 5vh #000000 solid;
+  border: 3vh #000000 solid;
 }
 /* ---------- Animation ---------- */
 
