@@ -180,7 +180,7 @@
 #scheduleTabs table {
     clear: both;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     border-spacing: 0px;
     align-self: center;
 }
@@ -205,7 +205,6 @@
     display: block;
     float: left;
     height: 10%;
-    padding: 0px 3vw;
     text-align: center;
     margin: 0px auto;
     font-size: 100%;
@@ -215,6 +214,7 @@
     line-height: 200%;
     text-decoration: none;
     border-spacing: 0px;
+    width: 14vw;
 }
 
 #scheduleTabs ul li a:hover {
@@ -258,7 +258,7 @@
 }
 
 #scheduleTabs table thead tr td {
-    padding-left: 5vw;
+    padding-left: 3vw;
     font-size: 100%;
     color: #00FF66;
     text-transform: uppercase;
@@ -272,6 +272,7 @@
     color: #ffffff;
     font-weight: normal;
     margin: auto;
+    width: 100vw;
 }
 
 #scheduleTabs table tbody tr {
