@@ -195,7 +195,7 @@
 
 #scheduleTabs ul li {
     float: left;
-    height: 5%;
+    height: 3vw;
     margin: 0 auto;
     padding-bottom: 0%;
 }
@@ -203,10 +203,10 @@
 #scheduleTabs ul li a {
     display: block;
     float: left;
-    height: 10%;
+    height: 15vw;
     text-align: left;
     margin: 0px auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-left: 1vw;
     padding-right: 2vw;
     font-weight: normal;
@@ -225,8 +225,8 @@
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
-    height: 10%;
-    line-height: 200%;
+    height: 10vw;
+    line-height: auto;
     text-decoration: underline;
 }
 
@@ -241,7 +241,7 @@
 
 #scheduleTabs table thead {
     height: 10%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #333333;
     line-height: 200%;
     background-color: #fff;
@@ -283,7 +283,7 @@
 
 #scheduleTabs table tbody tr td h4 {
     color: #ffffff;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 0 auto;
     padding: 0;
     font-weight: normal;
