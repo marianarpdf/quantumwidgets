@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 /* CSS Document */
 
@@ -168,7 +168,6 @@
   + Center Column */
 
 #scheduleTabs {
-
   height: 100vh;
   color: #ffffff;
   font-family: 'Space Mono', monospace;
@@ -207,44 +206,42 @@
     height: 10%;
     text-align: left;
     margin: 0px auto;
-    font-size: 110%;
+    font-size: 2vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
     font-weight: normal;
     text-transform: uppercase;
     color: #FFF;
     line-height: 200%;
     text-decoration: none;
     border-spacing: 0px;
-    width: 13vw;
+    width: auto;
 }
 
 #scheduleTabs ul li a:hover {
     color: #FFF;
-    text-decoration: none;
+    text-decoration: bold;
     border-spacing: 0px;
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
     height: 10%;
-    margin-top: 0px;
     line-height: 200%;
-    color: #ffffff;
     text-decoration: underline;
-    border-spacing: 0px;
 }
 
 #scheduleTabs table {
     clear: both;
-    padding: 0px;
+    padding: 2vw;
     border-collapse: collapse;
     width: 100%;
-    border-spacing: 0px;
     margin: 0 auto;
 
 }
 
 #scheduleTabs table thead {
     height: 10%;
-    font-size: 100%;
+    font-size: 2vw;
     color: #333333;
     line-height: 200%;
     background-color: #fff;
@@ -258,8 +255,7 @@
 }
 
 #scheduleTabs table thead tr td {
-    padding-left: 0vw;
-    font-size: 100%;
+    padding-left: 2vw;
     color: #00FF66;
     text-transform: uppercase;
     display: none;
@@ -268,7 +264,7 @@
 #scheduleTabs table tfoot {}
 
 #scheduleTabs table tbody {
-    font-size: 100%;
+    font-size: 1.5vw;
     color: #ffffff;
     font-weight: normal;
     margin: auto;
@@ -281,13 +277,13 @@
 
 #scheduleTabs table tbody tr td {
     height: 10%;
-    padding-left: 0vw;
+    padding-left: 1vw;
     padding-top: 2%;
 }
 
 #scheduleTabs table tbody tr td h4 {
     color: #ffffff;
-    font-size: 110%;
+    font-size: 2vw;
     margin: 0 auto;
     padding: 0;
     font-weight: normal;
@@ -303,7 +299,6 @@
     float: left;
     height: 10% !important;
     padding: 0 0%;
-    font-size: 110%;
     color: #cc0000;
     font-weight: normal;
     line-height: 200% !important;
@@ -315,7 +310,6 @@
     height: 10% !important;
     margin: 0px auto !important;
     padding: 0px !important;
-    font-size: 110%;
     color: 282828 !important;
     font-weight: normal !important;
     text-transform: uppercase;
