@@ -206,7 +206,7 @@
     height: 15vw;
     text-align: left;
     margin: 0px auto;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     padding-left: 1vw;
     padding-right: 2vw;
     font-weight: normal;
@@ -264,7 +264,7 @@
 #scheduleTabs table tfoot {}
 
 #scheduleTabs table tbody {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     color: #ffffff;
     font-weight: normal;
     margin: auto;
@@ -283,7 +283,7 @@
 
 #scheduleTabs table tbody tr td h4 {
     color: #ffffff;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     margin: 0 auto;
     padding: 0;
     font-weight: normal;
