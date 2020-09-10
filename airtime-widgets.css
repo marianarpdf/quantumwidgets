@@ -105,7 +105,7 @@
 #onAirToday h3 {
     margin: auto;
     padding: 0 0%;
-    font-size: 1.8vw;
+    font-size: 3vw;
     color: #ffffff;
     line-height: 200%;
     background: #000000;
@@ -123,7 +123,7 @@
 
 #onAirToday table tbody {
     color: #ffffff;
-    font-size: 1.6vw;
+    font-size: 3vw;
     margin: auto;
     vertical-align: text-top;
 }
