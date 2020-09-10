@@ -94,20 +94,20 @@
 }
 
 #onAirToday {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     border: 0px;
     overflow-x: hidden;
     font-family: 'Space Mono', monospace;
-    height: 100%;
+    height: 100vh;
 }
 
 #onAirToday h3 {
     margin: auto;
     padding: 0 0%;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #ffffff;
-    line-height: 200%;
+    line-height: 10vh;
     background: #000000;
     border: none;
 }
@@ -118,29 +118,30 @@
     padding: 0;
     border: none;
     margin: auto;
-    vertical-align: text-top;
+    vertical-align: text-center;
 }
 
 #onAirToday table tbody {
     color: #ffffff;
-    font-size: 3vw;
+    font-size: 4vw;
     margin: auto;
     vertical-align: text-top;
 }
 
 #onAirToday table tbody tr {
-    height: 60%;
+    height: 100%;
     margin: auto;
     vertical-align: text-top;
+    line-height: 15vh;
 }
 
 #onAirToday table tbody tr td {
     border-bottom: 0px solid #FFF;
-    height: 60%;
-    padding-left: 2%;
+    height: 100%;
+    padding-left: 0%;
     font-weight: normal;
     margin: auto;
-    vertical-align: text-top;
+    vertical-align: text-center;
 }
 
 #onAirToday table tbody tr td a {
