@@ -196,7 +196,7 @@
 
 #scheduleTabs ul li {
     float: left;
-    height: 4vh;
+    height: 8vh;
     margin: 0 auto;
     padding-bottom: 0%;
 }
@@ -204,7 +204,7 @@
 #scheduleTabs ul li a {
     display: block;
     float: left;
-    height: 10vw;
+    height: 15vw;
     text-align: left;
     margin: 0px auto;
     font-size: 1.5vw;
