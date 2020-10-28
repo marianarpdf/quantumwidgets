@@ -226,7 +226,7 @@
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
-    height: 15vh;
+    height: 15vw;
     line-height: auto;
     text-decoration: underline;
 }
