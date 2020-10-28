@@ -196,7 +196,7 @@
 
 #scheduleTabs ul li {
     float: left;
-    height: 2vw;
+    height: 4vh;
     margin: 0 auto;
     padding-bottom: 0%;
 }
@@ -213,7 +213,7 @@
     font-weight: normal;
     text-transform: uppercase;
     color: #FFF;
-    line-height: 150%;
+    line-height: 130%;
     text-decoration: none;
     border-spacing: 0px;
     width: auto;
@@ -226,7 +226,7 @@
 }
 
 #scheduleTabs ul li.ui-tabs-selected a {
-    height: 10vw;
+    height: 15vh;
     line-height: auto;
     text-decoration: underline;
 }
@@ -314,7 +314,7 @@
     color: 282828 !important;
     font-weight: normal !important;
     text-transform: uppercase;
-    line-height: 20% !important;
+    line-height: 10% !important;
     background: none !important;
     border: none !important;
     display: none;
