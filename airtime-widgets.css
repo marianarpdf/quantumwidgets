@@ -100,6 +100,7 @@
     overflow-x: hidden;
     font-family: 'Space Mono', monospace;
     height: 90vh;
+    white-space: nowrap;
 }
 
 #onAirToday h3 {
@@ -119,6 +120,7 @@
     border: none;
     margin: auto;
     vertical-align: text-center;
+    white-space: nowrap;
 }
 
 #onAirToday table tbody {
@@ -175,14 +177,15 @@
   border-spacing: 0px;
   align-self: right;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 #scheduleTabs table {
     clear: both;
     padding: 0px;
-    width: 100vw;
     border-spacing: 0px;
     align-self: right;
+    white-space: nowrap;
 }
 
 #scheduleTabs ul {
@@ -206,7 +209,7 @@
     float: left;
     text-align: left;
     margin: 0px auto;
-    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
     padding-left: 1vw;
     padding-right: 2vw;
     font-weight: normal;
@@ -236,11 +239,12 @@
     border-collapse: collapse;
     width: 100%;
     margin: 0 auto;
+    white-space: nowrap;
 
 }
 
 #scheduleTabs table thead {
-    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
     color: #333333;
     line-height: 100%;
     background-color: #fff;
@@ -262,11 +266,11 @@
 #scheduleTabs table tfoot {}
 
 #scheduleTabs table tbody {
-    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
     color: #ffffff;
     font-weight: normal;
     margin: auto;
-    width: 100vw;
+    width: 100%;
 }
 
 #scheduleTabs table tbody tr {
