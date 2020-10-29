@@ -15,7 +15,7 @@
     vertical-align: middle;
     width: auto;
     height: auto;
-    font-size: 50vh;
+    font-size: calc(500px + 6 * ((100vw - 320px) / 680));
     font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: 0%;
