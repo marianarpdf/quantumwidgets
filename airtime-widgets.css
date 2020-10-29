@@ -15,7 +15,7 @@
     vertical-align: middle;
     width: auto;
     height: auto;
-    font-size: calc(500px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
     font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: 0%;
@@ -100,7 +100,7 @@
     overflow-x: hidden;
     font-family: 'Space Mono', monospace;
     height: 90vh;
-    white-space: nowrap;
+
 }
 
 #onAirToday h3 {
@@ -120,7 +120,7 @@
     border: none;
     margin: auto;
     vertical-align: text-center;
-    white-space: nowrap;
+
 }
 
 #onAirToday table tbody {
