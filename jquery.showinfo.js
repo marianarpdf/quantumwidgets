@@ -18,33 +18,50 @@
 
         getServerData();
 
-        function updateWidget(){
-            var currentShow = sd.getCurrentShow();
-            var nextShows = sd.getNextShows();
-            var shows = currentShow.length == 0 ? nextShows : currentShow.concat(nextShows);
+        function updateWidget() {
+        var currentShow = sd.getCurrentShow();
+        var nextShows = sd.getNextShows();
+        var shows =
+          currentShow.length == 0 ? nextShows : currentShow.concat(nextShows);
 
-            tableString = "";
-            tableString += "<h3>" + options.text.onAirToday + "</h3>";
-            tableString += "<table width='100%' border='0' cellspacing='0' cellpadding='0' class='widget widget now-playing-list small'>"+
-                "<tbody>";
-            
-            for (var i=0; i<shows.length; i++){
-                tableString +=
-                "<tr>" +
-                "<td class='time'>"+shows[i].getRange()+"</td>";
+        tableString = "";
+        tableString += `<h3>${options.text.onAirToday}</h3>`;
+        tableString += `
+            <div class="WMS">
+            <style>
+                .WMS .WMS-hour {
+                    margin: 0;
+                }
+                .WMS .WMS-name {
+                    margin: 0;
+                    margin-bottom: 16px;
+                }
+            </style>
+        `;
 
-                var url = shows[i].getURL();
-                if (url.length > 0) {
-                    tableString += "<td><a href='" + shows[i].getURL() + "'>" + shows[i].getName() + "</a></td></tr>";
-                } else {
-                    tableString += "<td>" + shows[i].getName() + "</td></tr>";
-                }  
-            }
-            tableString += "</tbody></table>";
-            
-            obj.empty();
-            obj.append(tableString);
+        for (var i = 0; i < shows.length; i++) {
+          tableString += `
+            <p class="WMS-hour">${shows[i].getRange()}</p>
+        `;
+
+          var url = shows[i].getURL();
+          if (url.length > 0) {
+            tableString += `
+                <p class="WMS-name"> Link: 
+                    <a href='${shows[i].getURL()}'>${shows[i].getName()}</a>
+                </p>
+            `;
+          } else {
+            tableString += `<p class="WMS-name">${shows[
+              i
+            ].getName()} </p>`;
+          }
         }
+        tableString += `</div> <br/> <br/>`;
+
+        obj.empty();
+        obj.append(tableString);
+      }
 
         function processData(data){
             checkWidgetVersion(data);
