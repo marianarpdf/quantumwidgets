@@ -15,7 +15,7 @@
     vertical-align: middle;
     width: auto;
     height: auto;
-    font-size: calc(20px + 6 * ((100vw - 320px) / 1000));
+    font-size: calc(12px + 6 * ((100vw - 320px) / 1000));
     font-family: 'eurostile', monospace;
     text-align: left;
     margin-left: 0%;
@@ -171,14 +171,11 @@
   + Center Column */
 
 #scheduleTabs {
-  width: auto;
-  height: auto;
   color: #ffffff;
   font-family: 'Space Mono', monospace;
   border-spacing: 0px;
-  align-self: right;
   text-transform: uppercase;
-  white-space: nowrap;
+
 }
 
 #scheduleTabs table {
@@ -193,15 +190,15 @@
     overflow: hidden;
     height: auto;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0%;
-    width: 100%;
+    width: auto;
 }
 
 #scheduleTabs ul li {
     float: left;
     height: 3vw;
-    margin: 0 auto;
+    margin: 0;
     padding-bottom: 0%;
 }
 
@@ -209,8 +206,8 @@
     display: block;
     float: left;
     text-align: left;
-    margin: 0px auto;
-    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+    margin: 0px;
+    font-size: calc(13px + 6 * ((100vh - 320px) / 680));
     padding-left: 1vw;
     padding-right: 2vw;
     font-weight: normal;
@@ -238,14 +235,13 @@
     padding-right: 2vw;
     padding-left: 2vw;
     border-collapse: collapse;
-    width: 100%;
-    margin: 0 auto;
-    white-space: nowrap;
+    width: 80%;
+    margin: 0;
 
 }
 
 #scheduleTabs table thead {
-    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(13px + 6 * ((100vh - 320vh) / 680));
     color: #333333;
     line-height: 100%;
     background-color: #fff;
@@ -267,11 +263,11 @@
 #scheduleTabs table tfoot {}
 
 #scheduleTabs table tbody {
-    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(13px + 6 * ((100vh - 320px) / 680));
     color: #ffffff;
     font-weight: normal;
-    margin: auto;
-    width: 100%;
+    margin: 0;
+    width: auto;
 }
 
 #scheduleTabs table tbody tr {
@@ -285,7 +281,7 @@
 
 #scheduleTabs table tbody tr td h4 {
     color: #ffffff;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-weight: normal;
 
@@ -309,7 +305,7 @@
 
 #scheduleTabs table tbody tr td ul li a {
     height: 10% !important;
-    margin: 0px auto !important;
+    margin: 0px !important;
     padding: 0px !important;
     color: 282828 !important;
     font-weight: normal !important;
