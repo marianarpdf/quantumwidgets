@@ -207,7 +207,7 @@
     float: left;
     text-align: left;
     margin: 0px;
-    font-size: calc(13px + 6 * ((100vh - 320px) / 680));
+    font-size: calc(15px + 6 * ((100vh - 320px) / 680));
     padding-left: 1vw;
     padding-right: 2vw;
     font-weight: normal;
@@ -241,7 +241,7 @@
 }
 
 #scheduleTabs table thead {
-    font-size: calc(13px + 6 * ((100vh - 320vh) / 680));
+    font-size: calc(15px + 6 * ((100vh - 320vh) / 680));
     color: #333333;
     line-height: 100%;
     background-color: #fff;
@@ -263,7 +263,7 @@
 #scheduleTabs table tfoot {}
 
 #scheduleTabs table tbody {
-    font-size: calc(13px + 6 * ((100vh - 320px) / 680));
+    font-size: calc(15px + 6 * ((100vh - 320px) / 680));
     color: #ffffff;
     font-weight: normal;
     margin: 0;
