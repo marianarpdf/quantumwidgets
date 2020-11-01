@@ -98,6 +98,7 @@
     margin: auto;
     border: 0px;
     overflow-x: hidden;
+    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
     font-family: 'Space Mono', monospace;
     height: 90vh;
 
@@ -106,7 +107,6 @@
 #onAirToday h3 {
     margin: auto;
     padding: 0 0%;
-    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
     color: #ffffff;
     line-height: 140%;
     background: #000000;
@@ -125,7 +125,6 @@
 
 #onAirToday table tbody {
     color: #ffffff;
-    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
     margin: auto;
     vertical-align: text-top;
 }
@@ -141,7 +140,6 @@
     border-bottom: 0px solid #FFF;
     height: 100%;
     padding-left: 0%;
-    font-weight: normal;
     margin: auto;
     vertical-align: text-center;
 }
